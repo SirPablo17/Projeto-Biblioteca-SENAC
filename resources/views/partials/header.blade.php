@@ -6,14 +6,19 @@
             </a>
 
             {{-- A rota aponta para 'home' e o método é GET --}}
-            <form action="{{ route('home') }}" method="GET" class="search-bar">
+            <form action="{{ route('home') }}" method="GET" class="search-bar relative w-full max-w-xl mx-auto">
 
-                {{-- O name="search" é o que o Controller vai ler ($request->search) --}}
-                {{-- value="{{ request('search') }}" mantém o texto escrito após pesquisar --}}
-                <input type="text" name="search" placeholder="Procurar Livros, Autores..."
-                    value="{{ request('search') }}">
+                {{-- INPUT BRANCO --}}
+                <input 
+                type="text" 
+                name="search" 
+                placeholder="Procurar Livros, Autores..."
+                value="{{ request('search') }}"
+                class="w-full bg-white text-gray-800 rounded-full px-5 py-3 pr-12 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-300"
+            >
 
-                <button type="submit" class="search-button">
+                {{-- BOTÃO DE LUPA --}}
+                <button type="submit" class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-blue-600">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
