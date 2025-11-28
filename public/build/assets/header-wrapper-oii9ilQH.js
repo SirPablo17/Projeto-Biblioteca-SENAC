@@ -1,0 +1,1 @@
+const r=document.querySelector(".header-sticky-wrapper");let d=0;window.addEventListener("scroll",function(){if(window.innerWidth<=768){let e=window.pageYOffset||document.documentElement.scrollTop;e>d?r.classList.add("header-sticky-wrapper--hidden"):r.classList.remove("header-sticky-wrapper--hidden"),d=e<=0?0:e}});

@@ -1,0 +1,44 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-B7hQtqzT.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/style.css": {
+    "file": "assets/style-GdSCuy8Q.css",
+    "src": "resources/css/style.css",
+    "isEntry": true,
+    "name": "style",
+    "names": [
+      "style.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CAiCLEjY.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/header-wrapper.js": {
+    "file": "assets/header-wrapper-oii9ilQH.js",
+    "name": "header-wrapper",
+    "src": "resources/js/header-wrapper.js",
+    "isEntry": true
+  },
+  "resources/js/header.js": {
+    "file": "assets/header-CLyGA9qE.js",
+    "name": "header",
+    "src": "resources/js/header.js",
+    "isEntry": true
+  },
+  "resources/js/hero-carousel.js": {
+    "file": "assets/hero-carousel-CrJomOjt.js",
+    "name": "hero-carousel",
+    "src": "resources/js/hero-carousel.js",
+    "isEntry": true
+  }
+}
