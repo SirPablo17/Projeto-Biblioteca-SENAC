@@ -13,8 +13,14 @@
     {{-- Swiper CSS --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-    {{-- AQUI O LARAVEL (VITE) CARREGA SEU CSS E JS --}}
-    @vite(['resources/css/style.css', 'resources/js/header-wrapper.js', 'resources/js/header.js', 'resources/js/hero-carousel.js'])
+    @vite([
+        'resources/css/app.css',       // <--- OBRIGATÓRIO (Tailwind)
+        'resources/js/app.js',         // <--- OBRIGATÓRIO (Scripts padrão)
+        'resources/css/style.css',     // <--- Seus estilos customizados
+        'resources/js/header-wrapper.js',
+        'resources/js/header.js',
+        'resources/js/hero-carousel.js'
+    ]) 'resources/js/header.js', 'resources/js/hero-carousel.js'])
 </head>
 <body>
     {{-- HEADER (Vamos incluir como um componente depois) --}}
